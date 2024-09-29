@@ -5,7 +5,6 @@ FROM python:3.8-slim
 WORKDIR /usr/src/app
 
 # app.py dosyasını konteynıra kopyala
-COPY app.py .
+COPY deneme.py ./
 
-# Python scriptini çalıştır
-CMD ["python", "./app.py"]
+CMD ["python", "./deneme.py"]
